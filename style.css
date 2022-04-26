@@ -70,3 +70,43 @@ button {
     justify-content: center;
     align-items: center;
 }
+
+.second {
+    display: flex;
+    flex-direction: column;
+    padding: 0 180px 100px 180px;
+}
+.info-header {
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: 900;
+}
+.info-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+}
+.square {
+    width: 180px;
+    height: 180px;
+    background-color: white;
+    border-radius: 20px;
+    border: 5px solid #3882F6 ;
+
+}
+.item {
+    text-align: center;
+
+}
+.secondary-text.two {
+    width: 180px;
+    color: #1F2937;
+    margin-top: 10px;
+    
+}
+
